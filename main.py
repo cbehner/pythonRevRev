@@ -21,5 +21,6 @@ def revrev(to_rev):
 
 
 if __name__ == '__main__':
-    revrev('The quick brown fox')
+    to_rev = input("Enter text to revrev: ")
+    revrev(to_rev)
 
